@@ -1,9 +1,9 @@
-            html {
-                font-family: 'Newsreader', serif;
-            }
-            
+            html,
             body {
+                font-family: 'Newsreader', serif;
                 text-align: center;
+                background-color: #1f2833;
+                color: #45a29e;
             }
             
             header {
@@ -16,10 +16,12 @@
                 margin: 2em;
             }
             
-            nav h3 {
+            nav h3,
+            a {
                 display: inline-flex;
                 justify-content: space-around;
                 margin: auto 10px;
+                color: #66fcf1;
             }
             
             .content {
