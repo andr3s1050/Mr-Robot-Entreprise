@@ -17,4 +17,4 @@ The purpose of this project is to practice with CSS Flexbox.
 
 ## Status
 
-This project is in process of completion.
+This project is complete, but could be upgraded.
