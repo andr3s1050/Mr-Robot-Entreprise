@@ -4,6 +4,7 @@
                 text-align: center;
                 background-color: #1f2833;
                 color: #45a29e;
+                min-width: auto;
             }
             
             header {
@@ -11,14 +12,12 @@
                 flex-direction: column;
                 border: 5px solid;
                 border-color: #45a29e;
-                margin: auto 300px;
+                margin: auto;
             }
-            
-            h1 {}
             
             nav {
                 text-decoration: underline;
-                margin: 2em;
+                margin-bottom: 2em;
             }
             
             nav h3,
@@ -27,6 +26,10 @@
                 justify-content: space-around;
                 margin: auto 10px;
                 color: #66fcf1;
+            }
+            
+            .title {
+                margin: 1.20em auto;
             }
             
             .content {
@@ -66,4 +69,24 @@
             #mission {
                 display: flex;
                 flex-direction: column;
+            }
+            /*Mobile*/
+            
+            @media only screen and (max-width: 800px),
+            (orientation: portrait) {
+                 :is(h1, h2, h3, h4, h5, h6) {
+                    font-size: 1.35em;
+                }
+                header {
+                    font-size: 1.25em;
+                }
+                a {
+                    font-size: 1.20em;
+                }
+                figcaption {
+                    font-size: 1.50em;
+                }
+                .product {
+                    width: 100%;
+                }
             }
