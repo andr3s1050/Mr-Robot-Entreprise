@@ -61,7 +61,7 @@
             
             .teammate figcaption {
                 padding: 5px;
-                min-width: 240px;
+                /* min-width: 100px; */
                 font-weight: bold;
                 text-align: center;
             }
@@ -77,14 +77,14 @@
                  :is(h1, h2, h3, h4, h5, h6) {
                     font-size: 1.35em;
                 }
-                header {
-                    font-size: 1.25em;
+                header h1 {
+                    font-size: 2em;
                 }
                 a {
-                    font-size: 1.20em;
+                    font-size: 1.35em;
                 }
                 figcaption {
-                    font-size: 1.50em;
+                    font-size: 1.25em;
                 }
                 .product {
                     width: 100%;
