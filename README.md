@@ -12,7 +12,7 @@ The purpose of this project is to practice with CSS Flexbox.
 
 ## Technologies
 
-- HTML 
+- HTML
 - CSS
 
 ## Status

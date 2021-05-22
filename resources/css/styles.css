@@ -1,92 +1,91 @@
-            html,
-            body {
-                font-family: 'Newsreader', serif;
-                text-align: center;
-                background-color: #1f2833;
-                color: #45a29e;
-                min-width: auto;
-            }
-            
-            header {
-                display: flex;
-                flex-direction: column;
-                border: 5px solid;
-                border-color: #45a29e;
-                margin: auto;
-            }
-            
-            nav {
-                text-decoration: underline;
-                margin-bottom: 2em;
-            }
-            
-            nav h3,
-            a {
-                display: inline-flex;
-                justify-content: space-around;
-                margin: auto 10px;
-                color: #66fcf1;
-            }
-            
-            .title {
-                margin: 1.20em auto;
-            }
-            
-            .content {
-                display: flex;
-                flex-wrap: wrap;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-                max-width: 1300px;
-                margin: 0 auto;
-            }
-            
-            .product img {
-                width: 225px;
-                height: 150px;
-            }
-            
-            .product figcaption {
-                padding: 5px;
-                min-width: 240px;
-                font-weight: bold;
-                text-align: center;
-            }
-            
-            .teammate img {
-                width: 325px;
-                height: 275px;
-            }
-            
-            .teammate figcaption {
-                padding: 5px;
-                /* min-width: 100px; */
-                font-weight: bold;
-                text-align: center;
-            }
-            
-            #mission {
-                display: flex;
-                flex-direction: column;
-            }
-            /*Mobile*/
-            
-            @media only screen and (max-width: 800px),
-            (orientation: portrait) {
-                 :is(h1, h2, h3, h4, h5, h6) {
-                    font-size: 1.35em;
-                }
-                header h1 {
-                    font-size: 2em;
-                }
-                a {
-                    font-size: 1.35em;
-                }
-                figcaption {
-                    font-size: 1.25em;
-                }
-                .product {
-                    width: 100%;
-                }
-            }
+html,
+body {
+  font-family: "Newsreader", serif;
+  text-align: center;
+  background-color: #1f2833;
+  color: #45a29e;
+  min-width: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid;
+  border-color: #45a29e;
+  margin: auto;
+}
+
+nav {
+  text-decoration: underline;
+  margin-bottom: 2em;
+}
+
+nav h3,
+a {
+  display: inline-flex;
+  justify-content: space-around;
+  margin: auto 10px;
+  color: #66fcf1;
+}
+
+.title {
+  margin: 1.2em auto;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.product img {
+  width: 225px;
+  height: 150px;
+}
+
+.product figcaption {
+  padding: 5px;
+  min-width: 240px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.teammate img {
+  width: 325px;
+  height: 275px;
+}
+
+.teammate figcaption {
+  padding: 5px;
+  /* min-width: 100px; */
+  font-weight: bold;
+  text-align: center;
+}
+
+#mission {
+  display: flex;
+  flex-direction: column;
+}
+/*Mobile*/
+
+@media only screen and (max-width: 800px), (orientation: portrait) {
+  :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 1.35em;
+  }
+  header h1 {
+    font-size: 2em;
+  }
+  a {
+    font-size: 1.35em;
+  }
+  figcaption {
+    font-size: 1.25em;
+  }
+  .product {
+    width: 100%;
+  }
+}
