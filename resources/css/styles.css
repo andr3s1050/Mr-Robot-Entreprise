@@ -52,6 +52,7 @@ a {
   padding: 5px;
   min-width: 240px;
   text-align: center;
+  font-weight: bold;
 }
 
 .teammate img {
