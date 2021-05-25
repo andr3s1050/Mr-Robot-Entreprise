@@ -13,7 +13,7 @@ header {
   flex-direction: column;
   border: 5px solid;
   border-color: #45a29e;
-  margin: auto;
+  margin: 20px 100px;
 }
 
 nav {
@@ -75,14 +75,10 @@ a {
 
 @media only screen and (max-width: 800px), (orientation: portrait) {
   body {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   figcaption {
     font-size: 1.25em;
-  }
-
-  footer {
-    font-size: 0.6em;
   }
 }
